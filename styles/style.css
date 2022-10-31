@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 * {
     font-family: 'Montserrat';
     text-decoration: none;
 }
+
 .header {
     height: 80px;
     width: auto;
     align-items: center;
+    position:relative;
 }
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -15,6 +19,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -24,14 +29,17 @@
     font-size: 16px;
     line-height: 28px;
 }
+
 .buttons {
     display: flex;
     justify-content: space-between;
     gap: 32px;
 }
+
 a {
     color: #2F281E;
 }
+
 button {
     display: block;
     width: 110px;
@@ -43,13 +51,66 @@ button {
     font-size: 16px;
     line-height: 20px;
 }
+
 .buttons>.left {
     color: #2F281E;
     border: 1px solid #BCD0E5;
     background-color: white;
 }
+
 .buttons>.right {
     background-color: #FF9900;
     color: white;
     border: none;
+}
+.started{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    align-items: center;
+    padding: 13px 40px 13px 40px;
+}
+.first-screen {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 120px 70px 120px;
+    gap: 56px;
+    width: auto;
+    height: 495px;
+}
+img>.first-screen {
+    width: 644px;
+    height: 495px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.left-side {
+    display: block;
+    width: 500px;
+    height: 301px;
+    margin: 97px 0px 97px 0px;
+    justify-content: space-between;
+    gap: 20px;
+}
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+}
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
 }

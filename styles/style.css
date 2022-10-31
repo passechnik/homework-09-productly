@@ -63,6 +63,7 @@ button {
     color: white;
     border: none;
 }
+
 .started{
     display: flex;
     width: 180px;
@@ -74,6 +75,7 @@ button {
     align-items: center;
     padding: 13px 40px 13px 40px;
 }
+
 .first-screen {
     position: relative;
     display: flex;
@@ -84,6 +86,7 @@ button {
     width: auto;
     height: 495px;
 }
+
 img>.first-screen {
     width: 644px;
     height: 495px;
@@ -91,6 +94,7 @@ img>.first-screen {
     order: 1;
     flex-grow: 0;
 }
+
 .left-side {
     display: block;
     width: 500px;
@@ -99,6 +103,7 @@ img>.first-screen {
     justify-content: space-between;
     gap: 20px;
 }
+
 h2 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -106,6 +111,7 @@ h2 {
     font-size: 44px;
     line-height: 54px;
 }
+
 p {
     font-family: 'Montserrat';
     font-style: normal;

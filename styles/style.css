@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-
 * {
     font-family: 'Montserrat';
     text-decoration: none;
+}
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
 }
 
 .header {
@@ -78,7 +84,7 @@ button {
 }
 
 .first-screen {
-    position: relative;
+    position: relativa;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,7 +135,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 65px;
-    position: absolute;
+    width: 1200px;
 }
 .cards {
     width: 1200px;
@@ -160,4 +166,18 @@ p {
     color: white;
     border: none;
     align-items: center;
+}
+.text-block {
+    display: block;
+}
+.benefits {
+    position: relative;
+    margin: 100px calc(50vw - 600px);
+    display: flex;
+    justify-content: space-between;
+    gap: 113px;
+}
+.p-benefits {
+    font-size: 16px;
+    line-height: 26px;
 }

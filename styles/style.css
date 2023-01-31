@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.header {
+    height: 80px;
+    width: 1440px;
+    align-items: center;
+    position: relative;
+    padding: 0 calc(50vw - 720px);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 18px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+a {
+    color: #2F281E;
+}
+
+button {
+    display: block;
+    width: 110px;
+    height: 46px;
+    border-radius: 4px;
+    padding: 13px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.buttons>.left {
+    color: #2F281E;
+    border: 1px solid #BCD0E5;
+    background-color: white;
+}
+
+.buttons>.right {
+    background-color: #FF9900;
+    color: white;
+    border: none;
+}
+
+.started {
+    display: flex;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    align-items: center;
+    padding: 13px 40px 13px 40px;
+}
+
+.first-screen {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px calc(50vw - 600px);
+    gap: 56px;
+    width: 1200;
+    height: 495px;
+}
+
+img>.first-screen {
+    width: 644px;
+    height: 495px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.left-side {
+    display: block;
+    width: 500px;
+    height: 301px;
+    margin: 97px 0px 97px 0px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    margin: auto;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+}
+.features {
+    margin: 100px calc(50vw - 600px);
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    width: 1200px;
+}
+.cards {
+    width: 1200px;
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.click-tests {
+    justify-content: space-between;
+    gap: 30px;
+}
+.features-title {
+    font-size: 36px;
+    width: 539px;
+    height: 88px;
+    display: flex;
+    text-align: center;
+}
+.sign-up-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    align-items: center;
+}
+.text-block {
+    display: block;
+}
+.benefits {
+    position: relative;
+    margin: 100px calc(50vw - 600px);
+    display: flex;
+    justify-content: space-between;
+    gap: 113px;
+}
+.p-benefits {
+    font-size: 16px;
+    line-height: 26px;
+}
+.product {
+    margin: 100px calc(50vw - 600px);
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 124px;
+}
+.row-check {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.marketers {
+    position: relative;
+    margin: 100px calc(50vw - 600px);
+    display: flex;
+    justify-content: space-between;
+    gap: 113px;
+}
+hr {
+    background: rgba(188, 208, 229, 0.496913);
+}

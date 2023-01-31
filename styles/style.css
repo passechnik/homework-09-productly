@@ -193,3 +193,13 @@ p {
     justify-content: space-between;
     gap: 20px;
 }
+.marketers {
+    position: relative;
+    margin: 100px calc(50vw - 600px);
+    display: flex;
+    justify-content: space-between;
+    gap: 113px;
+}
+hr {
+    background: rgba(188, 208, 229, 0.496913);
+}
